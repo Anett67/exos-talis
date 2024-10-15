@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>removeEventListener Exemple</title>
+</head>
+<body>
+<button id="myButton">Cliquez ici</button>
+<button id="stopButton">Arrêter le clic</button>
+
+<script>
+    const button = document.getElementById('myButton');
+    const stopButton = document.getElementById('stopButton');
+
+    // Fonction de gestion d'événement
+    function handleClick() {
+        alert('Bouton cliqué !');
+    }
+
+    // Ajouter le gestionnaire d'événements
+    button.addEventListener('click', handleClick);
+
+    // Retirer le gestionnaire d'événements
+    stopButton.addEventListener('click', function() {
+        button.removeEventListener('click', handleClick);
+        alert('Gestionnaire d\'événement retiré.');
+    });
+</script>
+</body>
+</html>
