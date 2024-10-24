@@ -1,4 +1,4 @@
 const length = 15
 const width = 8
 
-console.log(length * width)
+console.log((length + width) * 2)
