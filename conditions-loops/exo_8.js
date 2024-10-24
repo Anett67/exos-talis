@@ -5,3 +5,7 @@ while (number !== 0) {
     digitsCount++
 }
 console.log("Le nombre a " + digitsCount + " chiffres")
+
+let number2 = 125
+
+console.log(number2.toString().length)
