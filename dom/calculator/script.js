@@ -8,6 +8,6 @@ button.addEventListener('click', function() {
         alert('Veuillez saisir deux nombres')
     }
 
-    result.textContent = parseInt(number1.value) + parseInt(number2.value)
+    result.textContent = Number(number1.value) + Number(number2.value)
 
 })
