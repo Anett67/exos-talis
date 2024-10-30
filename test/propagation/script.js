@@ -6,7 +6,9 @@ list.addEventListener('click', function(event) {
     console.log(event.currentTarget)
     console.log(event.target)
     console.log('list clicked')
+    event.stopPropagation()
 })
+
 container.addEventListener('click', function(event) {
     console.log(event.currentTarget)
     console.log(event.target)

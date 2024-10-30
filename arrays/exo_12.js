@@ -11,11 +11,3 @@ function titleCase(str) {
 console.log(titleCase("I'm a little tea pot"))
 
 
-// Solution avec Regex
-function titleCaseWithRegex(str) {
-    return str
-        .toLowerCase()
-        .replace(/(^|\s)\S/g, L => L.toUpperCase());
-}
-
-console.log(titleCaseWithRegex("I'm a little tea pot"))
