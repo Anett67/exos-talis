@@ -5,4 +5,4 @@ function addOneWeek(date) {
     console.log(dateObject)
 }
 
-addOneWeek('2024-12-25')
+addOneWeek('2024-10-28')
