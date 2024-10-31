@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste de tâches</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .btn {
+            margin-left: 20px;
+        }
+
+        .task-wrapper {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .task-wrapper span {
+            font-size: 24px;
+        }
+
+        .task-wrapper span.category-badge {
+            font-size: 14px;
+            margin-left: 10px;
+            padding: 1px 4px;
+            border-radius: 4px; 
+        }
+
+        .task-name {
+            background-color: white;
+            width: 240px;
+            padding-left: 10px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5">
@@ -39,27 +70,3 @@
 </body>
 </html>
 
-<style>
-
-.btn {
-    margin-left: 20px;
-}
-
-.task-wrapper {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.task-wrapper span {
-    font-size: 24px;
-}
-
-.task-wrapper span.category-badge {
-    font-size: 14px;
-    margin-left: 10px;
-    padding: 1px 4px;
-    border-radius: 4px; 
-}
-
-</style>
